@@ -1,0 +1,64 @@
+/* New csss taken from LeWagon front end class */
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
+
+/* Legacy css code can delete */
+/* Note:     "display: inline;" used in "li a" below. this makes thelist inline. If I take all the legacy code out it still works inline so just a note in future that i may need to remove all the leagacy code */
+  ul {
+    color: red !important;
+    list-style-type: square;
+
+  }
+  
+  li {
+  
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #ee8972;
+    font-weight: 200;
+    font-size: 20px;
+    
+    list-style-type: square;
+  }
+  
+  li:last-child {
+    border: none;
+  }
+  
+  li a {
+    list-style-type: square;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #4F4F4F;
+    font-weight: 200;
+    font-size: 20px;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    display: inline;
+    width: 200px;
+  }
+  
+  li a:hover {
+    // font-size: 30px;
+    // background: #f6f6f6;
+    text-decoration: none;
+  }
+  

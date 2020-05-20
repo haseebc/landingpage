@@ -1,0 +1,47 @@
+body {  
+    /* font-family: 'Open Sans', sans-serif; Normally I use this but not for my profile page*/
+    background: #F7F9FC;
+    /* background-color: #f4eeff; */
+    color: #575F7D;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    font-weight: lighter;
+
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #575F7D;
+    font-size: 32px;
+    font-weight: 900;
+  }
+
+h2 {
+
+}  
+
+
+
+.img-circle {
+    border-radius: 50%;
+    margin: 30px;
+  }
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #6B72E1;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+a:hover {
+        opacity: 1;
+     
+        text-decoration: none;
+    
+      }
+
