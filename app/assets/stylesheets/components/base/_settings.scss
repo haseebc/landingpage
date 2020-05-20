@@ -1,0 +1,33 @@
+.centerimage {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+
+  @media (max-width: 767.98px) {   
+    .centerimage{
+      width: none;
+      margin: 0 auto;
+        max-width:320px;
+        float: none;
+        width: 400px;
+        
+        }
+      }
+.image-centre_padding {
+  width: 70%;
+  margin: 0 auto;
+  padding: 5%
+  }
+
+  @media (max-width: 767.98px) {   
+    .image-centre_padding {
+      width: none;
+      margin: 0 auto;
+        max-width:320px;
+        float: none;
+        width: 400px;
+        
+        }
+      }
+

@@ -1,4 +1,35 @@
-// Import your components CSS files here.
-@import "alert";
-@import "avatar";
-@import "navbar";
+// Import your components CSS files here. Inspiration from https://medium.com/@mciastek/s-css-best-practices-that-you-have-not-yet-known-ba2f6329b5dd
+
+// Taken from Front end Profile page design
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,500,700,900);
+@import url(https://use.fontawesome.com/releases/v5.2.0/css/all.css);
+
+// Taken from marpillero
+// *** Utils ***
+@import 'utils/animations';
+@import 'utils/video';
+@import 'utils/grid';
+@import 'utils/ui';
+@import 'utils/alert';
+
+// *** Base ***
+@import 'base/core';
+@import 'base/typography';
+@import 'base/settings';
+@import 'base/colors';
+@import 'base/lists';
+
+// *** Components ***
+@import 'ui-components/header';
+@import 'ui-components/footer';
+@import 'ui-components/button';
+@import 'ui-components/sidebar';
+@import 'ui-components/navbar';
+@import 'ui-components/cards';
+@import 'ui-components/form';
+@import 'ui-components/thumbnails';
+@import 'ui-components/icons';
+@import 'ui-components/banner';
+@import 'ui-components/container';
+
+

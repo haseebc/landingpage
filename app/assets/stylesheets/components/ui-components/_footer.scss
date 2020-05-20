@@ -1,0 +1,21 @@
+.footer {
+    background-color: #2c2b2b;
+    text-align: center;
+    padding: 60px;
+  }  
+
+.footer a {
+    color: #1EDD88;
+    font-size: 30px; /* increases size of the footer */
+    margin: 0 5px; /* create space between icons */
+} 
+
+.footer p {
+    color: #6B6C6C;
+    margin: 15px; 
+} 
+
+.footer .fas { /* this codes the .fas class in the .footer class */
+    color: red;
+    opacity: 0.9;
+} 

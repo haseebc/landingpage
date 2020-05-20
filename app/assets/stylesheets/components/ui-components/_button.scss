@@ -1,0 +1,112 @@
+
+.btn-primary {
+  background-color: #1EDD88;
+  color: white;
+  padding: 16px 36px;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+
+/* Taken from LeWagon profile page excercise */
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  opacity: 1;
+  background: #A9A9F5;
+  text-decoration: none;
+  color: white;
+}
+
+  /* Legacy buttons! */
+
+  .btn-medium {
+    /* color: #999999; */
+    color: #616668;
+    border: 1px solid #999999;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: normal;
+    font-size: 15px !important;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.6;
+  }
+
+  
+  .btn-medium:hover {
+    opacity: 1;
+    text-decoration: none;
+    color: #999999;
+  }
+  .btn-treehouse {
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    background: #6AD58B;
+    transition: background 0.3s ease;
+  }
+  .btn-treehouse:hover {
+    opacity: 1;
+    background: #3ac162;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .btn-ghost {
+    color: #4A4A4A;
+    border: 1px solid #4A4A4A;
+    padding: 8px 24px;
+    border-radius: 50px;
+    font-weight: lighter;
+    opacity: 0.6;
+    transition: opacity 0.6s ease;
+  }
+  .btn-ghost:hover {
+    opacity: 1;
+  }
+
+  .btn-ghost__medium {
+    color: #616668;
+    border: 1px solid #616668;
+    padding: 8px 24px;
+    border-radius: 50px;
+    font-weight: lighter;
+    opacity: 0.6;
+    transition: opacity 0.6s ease;
+  }
+  
+  .btn-ghost__medium:hover {
+    opacity: 1;
+  }
+
+  .btn-flat {
+    color: white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    background: #1EDD88;
+    transition: background 0.3s ease;
+  }
+  .btn-flat:hover {
+    background: #1BCB7F;
+    color: white;
+  }
+  
+  .btn-gradient {
+    color: white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    background: linear-gradient(#167FFB, #0F60C4);
+    transition: background 0.3s ease;
+    border: 1px solid #0F60C4;
+  }
+  .btn-gradient:hover {
+    background: linear-gradient(#147EFF, #0F67DA);
+    color: white;
+  }
