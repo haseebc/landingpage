@@ -12,7 +12,7 @@
 
 .footer p {
     color: #6B6C6C;
-    margin: 15px; 
+    margin: 10px 0px 0px; /*reads margin top is 5px, margin to sides is 0px, margin below is 0px*/ 
 } 
 
 .footer .fas { /* this codes the .fas class in the .footer class */
